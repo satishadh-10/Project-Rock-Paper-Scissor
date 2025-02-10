@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #3c153b;
+    color: white;
+    text-align: center;
+    padding-top: 2vmin;
+    height: 10vmin;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+img:hover{
+    background-color: #8b1e3f;
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
